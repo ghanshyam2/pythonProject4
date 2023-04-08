@@ -1,11 +1,11 @@
 # pythonProject4
 
-Crate Clinical Data Reporting
+Create Clinical Data Reporting
 
-Frontend : HTML, CSS
-DataBase: PostgresQL
-Framework: Django
-Language: Python
+# Frontend : HTML, CSS
+# DataBase: PostgresQL
+# Framework: Django
+# Language: Python
 
 About Project:
 
