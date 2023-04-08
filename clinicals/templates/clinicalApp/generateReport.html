@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/clinicals.css' %}"/>
+    <meta charset="UTF-8">
+    <title>Generate Report</title>
+</head>
+<body>
+<h2> Generate Report:</h2>
+<table border="2">
+    <thead>
+    <th>Component Name</th>
+    <th>Component Values</th>
+    <th>Measured Date Time</th>
+    </thead>
+    {% for entry in data %}
+    <tr>
+        <td>{{entry.componentName}}</td>
+        <td>{{entry.componentValues}}</td>
+        <td>{{entry.measureDateTime}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="/">Back Home</a>
+
+</body>
+</html>
